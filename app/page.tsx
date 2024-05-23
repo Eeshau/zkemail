@@ -116,6 +116,7 @@ export default function Home() {
 
 
       {/* FAQ ACCORDION ON MAIN PAGE */}
+
       <div className='pl-[10%] py-[100px] z-50 bg-white w-full'>
         <div className='min-h-[200px]'>
           <div className='relative '>
@@ -156,7 +157,7 @@ export default function Home() {
 
 
       {/* PROJECTS USING ZK EMAIL SECTION*/}
-      <div className='px-[10%] py-[6%]'>
+      <div className='px-[10%] py-[6%] w-full'>
         <Typography sx={{textAlign:'center', paddingBottom:'15px'}}>What does this enable?</Typography>
 
 
@@ -171,7 +172,7 @@ export default function Home() {
             Projects Using ZK Email
           </Typography>
 
-        <Grid container spacing={2} direction="row" sx={{ justifyContent:'center' }}>
+        <Grid container spacing={2} direction="column" sx={{ justifyContent:'center' }}>
           <Grid item xs={4}>
             <ProjectCardHighlight projectTitle="ZKP2P" url='https://zkp2p.xyz/' projectDescription="Peer to peer marketplace for decentralized onramp/offramp to Ethereum via Venmo, UPI, Garanti, and more." projectTag="Protocol Kit"/>
           </Grid>
